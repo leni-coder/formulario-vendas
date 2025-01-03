@@ -1,7 +1,7 @@
 body{
 font-family:Arial,sans-serif;
 margin:0;
-padding:20px;
+padding:0;
 background: linear-gradient(90deg, rgba(0,36,14,0.8743872549019608) 4%, rgba(9,121,78,1) 50%, rgba(0,219,255,1) 100%);
  
 }
@@ -60,6 +60,42 @@ box-shadow: 3px 3px 10px white;
 button:hover{
 background: #00dbff ;
 
+}
+
+.dImage{
+    
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.dImage img{
+    width: 66px;
+    height: 66px;
+    margin: -3.6px;
+    justify-content: center;
+
+   
+}
+
+.menuTitulo{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #37c0cf;
+    border-bottom: 2px solid black;
+}
+.dados{
+    width: 200px;
+    height: 80px;
+  margin: 5px;
+  padding-top: 10px ;
+  text-align: left;
+   
 }
 
 
